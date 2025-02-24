@@ -6,13 +6,13 @@ const Hero = () => {
     <div
       className="relative h-[700px] md:h-vh w-full flex items-center justify-center text-center text-white"
       style={{
-        backgroundImage: "url('../assets/hero-bg.jpg')",
+        backgroundImage: "url('../assets/back.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
       {/* Overlay */}
-      {/* <div className="absolute inset-0 bg-black bg-opacity-20 "></div> */}
+      <div className="absolute inset-0 bg-black opacity-50 "></div>
 
       {/* Content */}
       <div className="relative z-10">
@@ -21,13 +21,12 @@ const Hero = () => {
           component="h1"
           className="text-5xl font-bold mb-4"
         >
-          Greening Communities, Transforming Lives
+          Conserving our environment together.
         </Typography>
-        <Typography variant="h5" className="text-xl mb-8">
-          Empowering communities through sustainable practices and tree-planting
-          initiatives.
-        </Typography>
-        <div className="space-x-4">
+        {/* <Typography variant="h5" className="text-xl mb-8">
+          Conserving our environment together.
+        </Typography> */}
+        {/* <div className="space-x-4">
           <Button
             variant="contained"
             color="primary"
@@ -44,7 +43,7 @@ const Hero = () => {
           >
             Learn More
           </Button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

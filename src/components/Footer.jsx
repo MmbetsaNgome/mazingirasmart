@@ -1,14 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="bg-green-900 text-white py-8">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
+          <Link to="/" className="flex items-center">
+            <img
+              src="/assets/logo.png"
+              alt="Mazingira Smart Logo"
+              className="h-10"
+            />
+            <span className="ml-2 text-xl font-bold text-green-800">
+              {/* Mazingira Smart */}
+            </span>
+          </Link>
           <h3 className="text-xl font-bold">Mazingira Smart</h3>
-          <p className="mt-2">
-            Empowering communities through sustainable practices.
-          </p>
+          <p className="mt-2">Conserving our environment together</p>
         </div>
         <div>
           <h4 className="text-lg font-semibold">Quick Links</h4>

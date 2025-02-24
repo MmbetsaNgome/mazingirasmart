@@ -44,9 +44,7 @@ const Gallery = () => {
 
   return (
     <div style={{ padding: "24px" }}>
-      <Typography variant="h3" align="center" gutterBottom>
-        Our Gallery
-      </Typography>
+      <Typography variant="h3" align="center" gutterBottom></Typography>
       <Grid2 container spacing={4}>
         {images.map((image) => (
           <Grid2 item key={image.id} xs={12} sm={6} md={4} lg={3}>

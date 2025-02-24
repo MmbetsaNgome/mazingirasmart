@@ -25,22 +25,19 @@ const Header = () => {
           <Link to="/projects" className="text-gray-700 hover:text-green-600">
             Projects
           </Link>
-          <Link to="/impact" className="text-gray-700 hover:text-green-600">
+          {/* <Link to="/impact" className="text-gray-700 hover:text-green-600">
             Impact
-          </Link>
+          </Link> */}
           <Link to="/gallery" className="text-gray-700 hover:text-green-600">
             Gallery
           </Link>
-          <Link
-            to="/get-involved"
-            className="text-gray-700 hover:text-green-600"
-          >
+          <Link to="/donate" className="text-gray-700 hover:text-green-600">
             Get Involved
           </Link>
           <Link to="/contact" className="text-gray-700 hover:text-green-600">
             Contact
           </Link>
-          <button className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+          <button className="bg-green-900 text-white px-4 py-2 rounded hover:bg-green-600">
             Donate Now
           </button>
         </nav>
