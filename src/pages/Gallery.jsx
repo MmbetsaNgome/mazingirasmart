@@ -7,8 +7,8 @@ const GalleryPage = () => {
     <div className="py-12">
       <PageHero
         title="Gallery"
-        subtitle="Learn more about our mission, vision, and team."
-        backgroundImage="/assets/back.jpg"
+        subtitle="Take a peek at some of our past activities"
+        backgroundImage="/assets/gallery/39.jpg"
       />
       <Gallery />
     </div>

@@ -23,10 +23,10 @@ const CallToAction = () => {
         </p>
         <div className="space-x-4">
           <button className="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700">
-            Donate Now
+            <a href="/donate">Donate</a>
           </button>
           <button className="border border-white text-white px-6 py-3 rounded hover:bg-white hover:text-green-800">
-            Partner With Us
+            <a href="/contact">Partner With Us</a>
           </button>
         </div>
       </div>

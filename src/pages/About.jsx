@@ -7,7 +7,7 @@ const AboutUs = () => {
       <PageHero
         title="About Us"
         subtitle="Learn more about our mission, vision, and team."
-        backgroundImage="/assets/back.jpg"
+        backgroundImage="/assets/gallery/39.jpg"
       />
       {/* History Section */}
       <div className="container mx-auto px-4 py-12">
@@ -57,24 +57,38 @@ const AboutUs = () => {
       {/* Mission and Vision Section */}
       <div className="bg-white py-12">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8">
+          <h2 className="text-3xl font-bold text-center ml-auto mr-auto mb-8 pb-4 border-b-2 border-green-600 inline-block max-w-xs">
             Mission & Vision
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Our Mission</h3>
-              <p className="text-gray-600">
-                To empower communities to take ownership of their environment
-                through sustainable practices and tree-planting initiatives.
-              </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            {/* Graphic */}
+            <div>
+              <img
+                src="/assets/mandv.jpg" // Path to your graphic
+                alt="Mission and Vision"
+                className="w-2xs h-auto"
+              />
             </div>
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Our Vision</h3>
-              <p className="text-gray-600">
-                A future where every neighborhood is lush with greenery, every
-                breath is fresh, and every individual has access to clean air
-                and water.
-              </p>
+
+            {/* Text */}
+            <div className="space-y-8">
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold mb-4">Our Mission</h3>
+                <p className="text-gray-600">
+                  To promote environmental conservation, responsible resource
+                  management, and empower all individuals for socioeconomic
+                  advancement through advocacy, education, and impactful
+                  initiatives.
+                </p>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-xl font-semibold mb-4">Our Vision</h3>
+                <p className="text-gray-600">
+                  To contribute towards building a sustainable and flourishing
+                  ecosystem by preserving natural resources and empowering
+                  communities.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -82,34 +96,54 @@ const AboutUs = () => {
 
       {/* Core Values Section */}
       <div className="container mx-auto px-4 py-12">
-        <h2 className="text-3xl font-bold text-center mb-8">Our Core Values</h2>
+        <h2 className="text-3xl font-bold text-center mb-8 pb-4 border-b-2 border-green-600 inline-block">
+          Our Core Values
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Integrity */}
           <div className="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-            <div className="text-4xl mb-4">🌱</div>
-            <h3 className="text-xl font-semibold mb-2">Sustainability</h3>
+            <div className="text-4xl mb-4">🔒</div>
+            <h3 className="text-xl font-semibold mb-2">Integrity</h3>
             <p className="text-gray-600">
-              We prioritize long-term environmental health.
+              Commitment to honesty, transparency, and ethical conduct in all
+              our actions, ensuring the utmost trust and credibility in our
+              environmental conservation efforts.
             </p>
           </div>
+
+          {/* Respect */}
           <div className="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
             <div className="text-4xl mb-4">🤝</div>
-            <h3 className="text-xl font-semibold mb-2">Collaboration</h3>
+            <h3 className="text-xl font-semibold mb-2">Respect</h3>
             <p className="text-gray-600">
-              We work with communities and partners to achieve common goals.
+              Honoring the diverse perspectives, cultures, and beliefs of
+              individuals and communities, fostering an inclusive environment
+              where everyone's contributions to environmental conservation are
+              valued and appreciated.
             </p>
           </div>
+
+          {/* Teamwork */}
+          <div className="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <div className="text-4xl mb-4">👥</div>
+            <h3 className="text-xl font-semibold mb-2">Teamwork</h3>
+            <p className="text-gray-600">
+              Collaborative spirit, where individuals work cohesively,
+              leveraging diverse skills and perspectives, to achieve common
+              environmental goals, fostering a stronger, unified impact in
+              conservation efforts.
+            </p>
+          </div>
+
+          {/* Innovation */}
           <div className="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
             <div className="text-4xl mb-4">💡</div>
             <h3 className="text-xl font-semibold mb-2">Innovation</h3>
             <p className="text-gray-600">
-              We embrace creative solutions to environmental challenges.
-            </p>
-          </div>
-          <div className="text-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-            <div className="text-4xl mb-4">❤️</div>
-            <h3 className="text-xl font-semibold mb-2">Community</h3>
-            <p className="text-gray-600">
-              We believe in the power of collective action.
+              Commitment to continuously exploring inventive solutions and
+              creative approaches, driving the evolution of environmental
+              conservation practices, and ensuring our initiatives remain
+              progressive and impactful.
             </p>
           </div>
         </div>
@@ -119,42 +153,60 @@ const AboutUs = () => {
       <div className="bg-white py-12">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Our Team</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-8">
             <div className="text-center">
               <img
-                src="/assets/team/john-doe.jpg"
+                src="/assets/vison.png"
                 alt="John Doe"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
               />
-              <h3 className="text-xl font-semibold">John Doe</h3>
-              <p className="text-gray-600">Founder & CEO</p>
+              <h3 className="text-xl font-semibold">Peter Nderitu</h3>
+              <p className="text-gray-600">Chairperson</p>
             </div>
             <div className="text-center">
               <img
-                src="/assets/team/jane-smith.jpg"
+                src="/assets/vison.png"
                 alt="Jane Smith"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
               />
-              <h3 className="text-xl font-semibold">Jane Smith</h3>
-              <p className="text-gray-600">Project Manager</p>
+              <h3 className="text-xl font-semibold">Gerald Maina</h3>
+              <p className="text-gray-600">Director</p>
             </div>
             <div className="text-center">
               <img
-                src="/assets/team/michael-brown.jpg"
+                src="/assets/vison.png"
                 alt="Michael Brown"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
               />
-              <h3 className="text-xl font-semibold">Michael Brown</h3>
-              <p className="text-gray-600">Community Outreach</p>
+              <h3 className="text-xl font-semibold">Dr. Paul Muriuki</h3>
+              <p className="text-gray-600">Director</p>
             </div>
             <div className="text-center">
               <img
-                src="/assets/team/sarah-jones.jpg"
+                src="/assets/vison.png"
                 alt="Sarah Jones"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
               />
-              <h3 className="text-xl font-semibold">Sarah Jones</h3>
-              <p className="text-gray-600">Sustainability Expert</p>
+              <h3 className="text-xl font-semibold">Job Gakuya</h3>
+              <p className="text-gray-600">Director</p>
+            </div>
+            <div className="text-center">
+              <img
+                src="/assets/vison.png"
+                alt="Sarah Jones"
+                className="w-32 h-32 rounded-full mx-auto mb-4"
+              />
+              <h3 className="text-xl font-semibold">Mercy Njoroge</h3>
+              <p className="text-gray-600">Director</p>
+            </div>
+            <div className="text-center">
+              <img
+                src="/assets/vison.png"
+                alt="Sarah Jones"
+                className="w-32 h-32 rounded-full mx-auto mb-4"
+              />
+              <h3 className="text-xl font-semibold">Daniel Gathieri</h3>
+              <p className="text-gray-600">Director</p>
             </div>
           </div>
         </div>

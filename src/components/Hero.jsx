@@ -6,7 +6,7 @@ const Hero = () => {
     <div
       className="relative h-[700px] md:h-vh w-full flex items-center justify-center text-center text-white"
       style={{
-        backgroundImage: "url('../assets/back.jpg')",
+        backgroundImage: "url('../assets/gallery/51.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
