@@ -4,7 +4,7 @@ const ImpactHighlights = () => {
   const highlights = [
     {
       icon: "🌳",
-      title: "10,000 Trees Planted",
+      title: "100,000 Trees Planted",
       description: "Helping to restore green spaces in communities.",
     },
     {
@@ -14,7 +14,7 @@ const ImpactHighlights = () => {
     },
     {
       icon: "💧",
-      title: "100,000 Lives Impacted",
+      title: "10,000 Lives Impacted",
       description: "Improving lives through environmental initiatives.",
     },
   ];
