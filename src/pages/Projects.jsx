@@ -112,6 +112,21 @@ const Impact = () => {
       value: " 6,500",
       label: "   indigenous trees in Nairobi County in Dec 2024.",
     },
+    {
+      id: 15,
+      value: " 6,000",
+      label: "   indigenous trees in Kajiado county in May 2023.",
+    },
+    {
+      id: 16,
+      value: " 4,200",
+      label: "   indigenous trees in Muranga county in July 2024.",
+    },
+    {
+      id: 17,
+      value: " 7,000",
+      label: "   indigenous trees in Machakos county in April 2024.",
+    },
   ];
 
   const testimonials = [
@@ -197,8 +212,8 @@ const Impact = () => {
                   index % 2 === 0 ? "" : "md:flex-row-reverse"
                 }`}
               > */}
-                {/* Image */}
-                {/* <div>
+          {/* Image */}
+          {/* <div>
                   <img
                     src={project.image}
                     alt={project.title}
@@ -206,17 +221,17 @@ const Impact = () => {
                   />
                 </div> */}
 
-                {/* Text Content */}
-                {/* <div className="flex flex-col justify-center">
+          {/* Text Content */}
+          {/* <div className="flex flex-col justify-center">
                   <h3 className="text-2xl font-bold mb-4">{project.title}</h3>
                   <p className="text-gray-600 mb-6">{project.description}</p> */}
-                  {/* <a
+          {/* <a
                     href={project.link}
                     className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 text-center md:text-left"
                   >
                     Learn More
                   </a> */}
-                {/* </div>
+          {/* </div>
               </div>
             </div>
           ))} */}

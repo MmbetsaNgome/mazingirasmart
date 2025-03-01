@@ -34,9 +34,9 @@ const Contact = () => {
               stewardship and sustainability initiatives.
             </p>
             <ul className="text-black-900">
-              <li className="mb-2">Email: mazingirasmart@gmail.com </li>
+              <li className="mb-2">Email: info@mazingirasmart.org </li>
               <li className="mb-2">
-                Phone: +254 791 831 939 / +254 725 952 484
+                Phone: +254 725 952 484 / +254 791 831 939
               </li>
               <li className="mb-2">
                 Address: Arch Business Centre Eastern Bypass 3rd floor B8,

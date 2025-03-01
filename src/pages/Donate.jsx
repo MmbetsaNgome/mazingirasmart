@@ -31,7 +31,13 @@ const Donate = ({ isModalOpen, openModal, closeModal }) => {
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
             <h3 className="text-xl font-semibold mb-4">Volunteer</h3>
             <p className="text-gray-600 mb-4">
-              Join our team and make a difference in your community.
+              Get involved and make a difference! Join us as a volunteer in our
+              tree planting efforts to help restore the environment, reduce
+              carbon footprints, and create a greener, healthier planet. Whether
+              you're planting your first tree or you're an experienced
+              volunteer, every effort counts. Together, we can create a lasting
+              impact and a brighter future. Sign up today and be part of the
+              change!
             </p>
             <button className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
               <a href="/contact">Volunteer Now</a>
@@ -42,7 +48,11 @@ const Donate = ({ isModalOpen, openModal, closeModal }) => {
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
             <h3 className="text-xl font-semibold mb-4">Partner With Us</h3>
             <p className="text-gray-600 mb-4">
-              Collaborate with us to create sustainable solutions.
+              Join us in making a lasting impact on our planet through tree
+              planting! By partnering with us, you can help restore ecosystems,
+              combat climate change, and create greener communities. Together,
+              we can plant the seeds for a sustainable future. Let's grow a
+              better world, one tree at a time.Kindly reach out to us.
             </p>
             <button className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
               <a href="/contact">Partner Now</a>

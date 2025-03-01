@@ -27,8 +27,8 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <ul className="text-gray-300 space-y-2">
-              <li>Email: mazingirasmart@gmail.com</li>
-              <li>Phone: +254 791 831 939 / +254 725 952 484</li>
+              <li>Email: info@mazingirasmart.org </li>
+              <li>Phone: +254 725 952 484 / +254 791 831 939 </li>
               <li>
                 Address: Arch Business Centre Eastern Bypass 3rd floor B8,
                 Nairobi ,Kenya

@@ -8,7 +8,7 @@ const Welcome = () => {
           <div className="relative flex flex-col sm:pb-0 lg:pb-16 pl-5 pr-5 lg:pr-0 lg:col-span-6 lg:pl-[70px] lg:pt-[14px]">
             <div className="py-4 w-fit">
               <p className="text-xl font-semibold text-green-900">
-                Welcome to Mazingira Smart
+                Welcome to Mazingira Smart NGO
               </p>
             </div>
             <div>

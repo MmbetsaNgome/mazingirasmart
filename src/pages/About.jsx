@@ -17,13 +17,13 @@ const AboutUs = () => {
           <div>
             <p className="text-gray-600 mb-4">
               Mazingira Smart is a non-governmental organization registered
-              under Section 10 of the Non-Governmental Organizations
-              Coordination Act, 1990. We are based in Nairobi, Kenya. Our goal
-              is to pioneer innovative solutions that combat climate change,
-              preserve biodiversity, and promote environment-conscious living.
-              We have adopted a holistic approach that defines true
-              environmental stewardship which is the restoration of natural
-              biodiversity, community engagement, and sustainable development
+              under Public Benefits Organizations Act of 2013. We are based in
+              Nairobi, Kenya. Our goal is to pioneer innovative solutions that
+              combat climate change, preserve biodiversity, and promote
+              environment-conscious living. We have adopted a holistic approach
+              that defines true environmental stewardship which is the
+              restoration of natural biodiversity, community engagement, and
+              sustainable development
             </p>
             <p className="text-gray-600 mb-4">
               At Mazingira Smart,we embrace diversity by welcoming individuals
@@ -44,11 +44,21 @@ const AboutUs = () => {
           </div>
 
           {/* Image */}
-          <div>
+          <div className="flex gap-1">
             <img
-              src="/assets/lightbulb.jpg"
+              src="/assets/Tree.jpg"
               alt="Our History"
-              className="w-full h-auto rounded-lg shadow-md"
+              className="w-1/3 h-auto rounded-lg shadow-md"
+            />
+            <img
+              src="/assets/Meru Oak.jpeg"
+              alt="Our History"
+              className="w-1/3 h-auto rounded-lg shadow-md"
+            />
+            <img
+              src="/assets/Avocados7.jpg"
+              alt="Our History"
+              className="w-1/3 h-auto rounded-lg shadow-md"
             />
           </div>
         </div>
@@ -64,9 +74,9 @@ const AboutUs = () => {
             {/* Graphic */}
             <div>
               <img
-                src="/assets/mandv.jpg" // Path to your graphic
-                alt="Mission and Vision"
-                className="w-2xs h-auto"
+                src="/assets/Save-our-planet.jpg"
+                alt="Our History"
+                className="w-full h-auto rounded-lg shadow-md"
               />
             </div>
 
@@ -153,62 +163,14 @@ const AboutUs = () => {
       <div className="bg-white py-12">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Our Team</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-8">
-            <div className="text-center">
-              <img
-                src="/assets/vison.png"
-                alt="John Doe"
-                className="w-32 h-32 rounded-full mx-auto mb-4"
-              />
-              <h3 className="text-xl font-semibold">Peter Nderitu</h3>
-              <p className="text-gray-600">Chairperson</p>
-            </div>
-            <div className="text-center">
-              <img
-                src="/assets/vison.png"
-                alt="Jane Smith"
-                className="w-32 h-32 rounded-full mx-auto mb-4"
-              />
-              <h3 className="text-xl font-semibold">Gerald Maina</h3>
-              <p className="text-gray-600">Director</p>
-            </div>
-            <div className="text-center">
-              <img
-                src="/assets/vison.png"
-                alt="Michael Brown"
-                className="w-32 h-32 rounded-full mx-auto mb-4"
-              />
-              <h3 className="text-xl font-semibold">Dr. Paul Muriuki</h3>
-              <p className="text-gray-600">Director</p>
-            </div>
-            <div className="text-center">
-              <img
-                src="/assets/vison.png"
-                alt="Sarah Jones"
-                className="w-32 h-32 rounded-full mx-auto mb-4"
-              />
-              <h3 className="text-xl font-semibold">Job Gakuya</h3>
-              <p className="text-gray-600">Director</p>
-            </div>
-            <div className="text-center">
-              <img
-                src="/assets/vison.png"
-                alt="Sarah Jones"
-                className="w-32 h-32 rounded-full mx-auto mb-4"
-              />
-              <h3 className="text-xl font-semibold">Mercy Njoroge</h3>
-              <p className="text-gray-600">Director</p>
-            </div>
-            <div className="text-center">
-              <img
-                src="/assets/vison.png"
-                alt="Sarah Jones"
-                className="w-32 h-32 rounded-full mx-auto mb-4"
-              />
-              <h3 className="text-xl font-semibold">Daniel Gathieri</h3>
-              <p className="text-gray-600">Director</p>
-            </div>
-          </div>
+          <ul className="list-inside space-y-4">
+            <li className="text-gray-600">Peter Nderitu - Board Chair</li>
+            <li className="text-gray-600">Gerald Maina - Secretary</li>
+            <li className="text-gray-600">Dr. Paul Muriuki - Treasurer</li>
+            <li className="text-gray-600">Job Gakuya - Board Member</li>
+            <li className="text-gray-600">Mercy Njoroge - Board Member</li>
+            {/* <li className="text-gray-600">Daniel Gathieri - Director</li> */}
+          </ul>
         </div>
       </div>
     </div>

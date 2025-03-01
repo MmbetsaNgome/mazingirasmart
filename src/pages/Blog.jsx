@@ -103,7 +103,7 @@ const Blog = () => {
                 <br />
               </p>
               <p>
-                For more information react us at{" "}
+                For more information reach us at{" "}
                 <a href="/contact" className="text-primary">
                   +254 791 831 939 / +254 725 952 484
                 </a>
