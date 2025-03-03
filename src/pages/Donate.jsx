@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import PageHero from "../components/PageHero";
+import { Link } from "react-router-dom";
+
 
 const Donate = ({ isModalOpen, openModal, closeModal }) => {
   return (
@@ -40,7 +42,8 @@ const Donate = ({ isModalOpen, openModal, closeModal }) => {
               change!
             </p>
             <button className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
-              <a href="/contact">Volunteer Now</a>
+              {/* <a href="/contact">Volunteer Now</a> */}
+              <Link to="/contact">Volunteer Now</Link>
             </button>
           </div>
 
@@ -55,7 +58,8 @@ const Donate = ({ isModalOpen, openModal, closeModal }) => {
               better world, one tree at a time.Kindly reach out to us.
             </p>
             <button className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
-              <a href="/contact">Partner Now</a>
+              {/* <a href="/contact">Partner Now</a> */}
+              <Link to="/contact">Partner Now</Link>
             </button>
           </div>
         </div>

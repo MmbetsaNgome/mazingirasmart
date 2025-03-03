@@ -167,8 +167,8 @@ const AboutUs = () => {
             <li className="text-gray-600">Peter Nderitu - Board Chair</li>
             <li className="text-gray-600">Gerald Maina - Secretary</li>
             <li className="text-gray-600">Dr. Paul Muriuki - Treasurer</li>
-            <li className="text-gray-600">Job Gakuya - Board Member</li>
-            <li className="text-gray-600">Mercy Njoroge - Board Member</li>
+            <li className="text-gray-600">Job Miano - Board Member</li>
+            <li className="text-gray-600">Mercy Muthoni - Board Member</li>
             {/* <li className="text-gray-600">Daniel Gathieri - Director</li> */}
           </ul>
         </div>
