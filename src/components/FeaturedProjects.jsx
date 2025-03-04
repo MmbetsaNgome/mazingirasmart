@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FeaturedProjects = () => {
   const projects = [
@@ -53,10 +54,7 @@ const FeaturedProjects = () => {
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                 <p className="text-gray-600 mb-4">{project.description}</p>
                 <button className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
-                  <a href="/projects">
-                    
-                    Learn More
-                    </a>
+                  <Link to="/projects">Learn More</Link>
                 </button>
               </div>
             </div>
