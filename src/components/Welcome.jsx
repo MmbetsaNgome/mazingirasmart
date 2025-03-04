@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Welcome = () => {
   return (
@@ -44,14 +45,21 @@ const Welcome = () => {
                 </p>
               </div>
               <div className=" pt-12 mb-8  lg:-mt-40">
-                <a
+                {/* <a
                   target=" "
                   rel="noreferrer"
                   href="/contact"
                   className="px-6 py-5 bg-green-900 text-white ml-0.5 text-sm font-semibold rounded"
                 >
                   Join Us
-                </a>
+                </a> */}
+                <Link
+                  to="/donate"
+                  className="px-6 py-5 bg-green-900 text-white ml-0.5 text-sm font-semibold rounded"
+                >
+                  {" "}
+                  Join Us
+                </Link>
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CallToAction = () => {
   return (
@@ -23,10 +24,10 @@ const CallToAction = () => {
         </p>
         <div className="space-x-4">
           <button className="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700">
-            <a href="/donate">Donate</a>
+            <Link to="/donate">Donate</Link>
           </button>
           <button className="border border-white text-white px-6 py-3 rounded hover:bg-white hover:text-green-800">
-            <a href="/contact">Partner With Us</a>
+            <Link to="/donate">Partner With Us</Link>
           </button>
         </div>
       </div>
